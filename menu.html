@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <section class="flex">
+            <a href="Project4.html" class="logo"><img src="./images/logo.png" alt=""></a>
+            <nav class="navbar">
+                <a href="Project4.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Ảnh</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <!-- header end -->
+    <!-- home start -->
+    <div class="home-bg">
+        <section id="home" class="home">
+            <div class="content">
+                <h3>Thiên Đường Cà Phê</h3>
+                <p>Một ly cà phê ngon là phải vừa ngọt vừa đắng. Một tình yêu lý tưởng là một tình yêu vừa ngọt ngào,
+                    vừa đắng cay.
+                </p>
+                <a href="about.html" class="btn">Về chúng tôi</a>
+            </div>
+        </section>
+    </div>
+    <!-- home end -->
+    <!-- menu start -->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <img src="./images/heading-img.png" alt="">
+            <h3>được ưa chuộng nhất</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/menu-1.png" alt="">
+                <h3>cà phê tình yêu</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-2.png" alt="">
+                <h3>capuchino</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-3.png" alt="">
+                <h3>mocha coffee</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-4.png" alt="">
+                <h3>frappuchino</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-5.png" alt="">
+                <h3>cà phê đen</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-6.png" alt="">
+                <h3>Ngọt đến giọt cuối cùng</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-7.png" alt="">
+                <h3>Bánh tổ ong</h3>
+            </div>
+            <div class="box">
+                <img src="./images/menu-8.png" alt="">
+                <h3>Savory polenta cakes</h3>
+            </div>
+        </div>
+    </section>
+    <!-- menu end -->
+    <!-- footer start -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>phamphi@gmail.com</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>giờ mở cửa</h3>
+                <p>07:00am - 10:00pm</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>địa chỉ</h3>
+                <p>Gò vấp, Tp.Hồ Chí Minh, Việt Nam</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>điện thoại</h3>
+                <p>(+84)83 3442 8480</p>
+            </div>
+        </div>
+        <div class="credit">&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div>
+    </section>
+    <!-- footer end -->
+    <!-- script mobile -->
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.header .flex .navbar');
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
