@@ -31,7 +31,8 @@
                 <a href="about.html">Giới thiệu</a>
                 <a href="menu.html">Menu</a>
                 <a href="gallery.html">Ảnh</a>
-                <a href="contact.html">Liên hệ</a>
+                <a href="login.html">đăng nhập</a>
+                <a href="signup.html">đăn ký thành viên</a>
             </nav>
             <div id="menu-btn" class="fas fa-bars"></div>
         </section>
@@ -143,21 +144,8 @@
         <div class="credit">&copy; design by <span>phạm hồ phi</span>.</div>
     </section>
     <!-- footer end -->
-    <!-- script mobile -->
-    <script>
-        let menu = document.querySelector('#menu-btn');
-        let navbar = document.querySelector('.header .flex .navbar');
-
-        menu.onclick = () => {
-            menu.classList.toggle('fa-times');
-            navbar.classList.toggle('active');
-        }
-
-        window.onscroll = () => {
-            menu.classList.remove('fa-times');
-            navbar.classList.remove('active');
-        }
-    </script>
+    <!-- script link -->
+    <script src="./js/script.js"></script>
     <!-- Subiz -->
     <script>
         !function (s, u, b, i, z) {
