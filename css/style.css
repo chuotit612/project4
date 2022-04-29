@@ -310,6 +310,78 @@ section {
   border: var(--border);
   margin: 1rem 0;
 }
+/* log in */
+.login-bg {
+  background: linear-gradient(90deg, var(--white), transparent 70%),
+    url("../images/login-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-bg > .log-in > form > .user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-bg > .log-in > .image > img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.login-bg > .log-in > form > .user-details > .input-box {
+  margin-bottom: 1.8rem;
+  width: calc(100% / 2 - 2rem);
+}
+
+.login-bg > .log-in > form > .user-details > .input-box > input {
+  height: 4rem;
+  width: 100%;
+  outline: none;
+  border-radius: 0.6rem;
+  border: var(--border);
+  padding-left: 0.7rem;
+  font-size: 1.8rem;
+  border-bottom-width: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+.login-bg > .log-in > form > .user-details > .input-box > span {
+  font-size: 2rem;
+  font-family: "Spectral", cursive;
+}
+
+.login-bg > .log-in > form > .user-details > .input-box > input:focus,
+.login-bg > .log-in > form > .user-details > .input-box > input:valid {
+  border-color: var(--main-color);
+}
+
+.login-bg > .log-in > form > .button {
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+}
+
+.login-bg > .log-in > form > .button > input {
+  height: 4rem;
+  width: 50%;
+  margin-left: 25%;
+  outline: none;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: 5rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.2rem;
+  background: var(--main-color);
+  font-family: "Spectral", cursive;
+}
+
+.login-bg > .log-in > form > .button > input:hover {
+  background-color: var(--black);
+}
+
 /* sign up */
 .sign-bg {
   background: linear-gradient(100deg, var(--white), transparent 80%),
@@ -327,12 +399,6 @@ section {
 .sign-bg > .sign-up > form > .user-details > .input-box {
   margin-bottom: 1.8rem;
   width: calc(100% / 2 - 2rem);
-}
-
-.sign-bg > .sign-up > form > .user-details > .input-box > .details {
-  display: block;
-  font-weight: 1.5rem;
-  margin-bottom: 0.8rem;
 }
 
 .sign-bg > .sign-up > form > .user-details > .input-box > input {
