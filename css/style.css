@@ -612,6 +612,15 @@ a {
     font-size: 3rem;
   }
 
+  .login-bg > .log-in > form > .user-details > .input-box {
+    width: 100%;
+  }
+
+  .login-bg > .log-in > form > .button > input {
+    width: 100%;
+    margin-left: 0;
+  }
+
   .sign-bg > .sign-up > form > .user-details > .input-box {
     width: 100%;
   }
