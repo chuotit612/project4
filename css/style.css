@@ -207,7 +207,9 @@ section {
   font-size: 1.8rem;
   text-transform: none;
 }
-
+.introduction > .content > p > strong {
+  font-size: 2rem;
+}
 /* facility */
 .facility > .box-container {
   display: grid;
