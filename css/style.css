@@ -516,6 +516,16 @@ section {
   font-size: 2rem;
   color: var(--black);
 }
+.footer > .box-container > .box > p,
+a {
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.footer > .box-container > .box > a:hover {
+  color: var(--main-color);
+}
 
 .footer > .box-container > .box > p {
   line-height: 2;
