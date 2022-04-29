@@ -489,6 +489,10 @@ section {
 }
 
 /* footer */
+.footer {
+  border-top: var(--border);
+}
+
 .footer > .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -531,19 +535,6 @@ a {
   line-height: 2;
   font-size: 1.6rem;
   color: var(--light-color);
-}
-
-.footer > .credit {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 2.5rem;
-  border-top: var(--border);
-  font-size: 2rem;
-  color: var(--black);
-}
-
-.footer > .credit > span {
-  color: var(--main-color);
 }
 
 /* media */
