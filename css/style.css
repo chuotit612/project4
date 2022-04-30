@@ -140,7 +140,7 @@ section {
   text-align: center;
 }
 
-.home-bg > .home > .content > h3 {
+.home-bg > .home > .content > h1 {
   font-size: 5rem;
   color: var(--black);
   font-family: "Spectral", cursive;
@@ -193,7 +193,7 @@ section {
   font-size: 1.8rem;
 }
 
-.introduction > .content > h3 {
+.introduction > .content > h2 {
   font-size: 4.5rem;
   color: var(--black);
   font-family: "Spectral", cursive;
