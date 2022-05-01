@@ -384,6 +384,22 @@ section {
   background-color: var(--black);
 }
 
+.login-bg > .log-in > .registion > p {
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: "Spectral", cursive;
+}
+
+.login-bg > .log-in > .registion > p > a {
+  font-size: 2.7rem;
+  color: var(--black);
+}
+
+.login-bg > .log-in > .registion > p > a:hover {
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
 /* sign up */
 .sign-bg {
   background: linear-gradient(100deg, var(--white), transparent 80%),
